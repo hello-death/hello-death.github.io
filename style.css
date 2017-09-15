@@ -29,6 +29,21 @@ div {
     border-color: #d9d9d9;
 }
 
+.contbox {
+    width: 130px;
+    height: 50px;
+    position: relative;
+    left: 300px;
+    bottom: 100px;
+}
+
+.conttext {
+    position: relative;
+    bottom: 16px;
+    right: 1px;
+    font-size: 17px;
+}
+
 img {
     display: block;
     margin: auto;
