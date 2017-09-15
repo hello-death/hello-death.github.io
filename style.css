@@ -29,6 +29,27 @@ div {
     border-color: #d9d9d9;
 }
 
+.largediv {
+    width: 1000px;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.smalldiv1 {
+    height: 438px;
+    position: absolute;
+    margin-right: 100px;
+    margin-left: 1120px;
+}
+
+.smalldiv2 {
+    height: 438px;
+    position: absolute;
+    margin-right: 100px;
+    margin-left: 1120px;
+    margin-top: 498px;
+}
+
 .contbox {
     width: 130px;
     height: 50px;
@@ -39,7 +60,7 @@ div {
 
 .conttext {
     position: relative;
-    bottom: 16px;
+    bottom: 0px;
     right: 1px;
     font-size: 17px;
 }
@@ -54,4 +75,9 @@ img {
 a {
     text-decoration: none;
     color: #d9d9d9
+}
+
+.roses {
+    position: relative;
+    top: 31px;
 }
