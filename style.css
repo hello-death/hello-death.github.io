@@ -14,12 +14,14 @@ h1 {
     font-family: serif;
     text-align: center;
     color: #d9d9d9;
-    text-decoration-line: underline;
+    text-decoration-line: none;
+    position: relative;
+    top: 6px;
 }
 
 div {
     width: 700px;
-    height: 90.4vh;
+    height: 896px;
     margin: auto;
     margin-top: 40px;
     background-color: #1a1a1a;
