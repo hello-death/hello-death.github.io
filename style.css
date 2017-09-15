@@ -29,27 +29,6 @@ div {
     border-color: #d9d9d9;
 }
 
-.contbox {
-    height: 30px;
-    width: 100px;
-    background-color: #1a1a1a;
-    border-style: double;
-    border-color: #d9d9d9;
-    position: fixed;
-    left: 1220px;
-    top: 800px
-}
-
-.conttext {
-    font-family: serif;
-    text-align: center;
-    margin: 30px;
-    color: #d9d9d9;
-    position: relative;
-    bottom: 25px;
-    right: 5.5px;
-}
-
 img {
     display: block;
     margin: auto;
