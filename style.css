@@ -55,7 +55,7 @@ div {
     height: 50px;
     position: relative;
     left: 300px;
-    bottom: 130px;
+    bottom: 140px;
 }
 
 .conttext {
@@ -65,7 +65,7 @@ div {
     font-size: 17px;
 }
 
-.globe {
+#globe {
     display: block;
     margin: auto;
     position:relative;
