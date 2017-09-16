@@ -29,20 +29,20 @@ div {
     border-color: #d9d9d9;
 }
 
-.largediv {
+#largediv {
     width: 1000px;
     position: absolute;
     margin-left: 100px;
 }
 
-.smalldiv1 {
+#smalldiv1 {
     height: 438px;
     position: absolute;
     margin-right: 100px;
     margin-left: 1120px;
 }
 
-.smalldiv2 {
+#smalldiv2 {
     height: 438px;
     position: absolute;
     margin-right: 100px;
@@ -50,7 +50,7 @@ div {
     margin-top: 498px;
 }
 
-.contbox {
+#contbox {
     width: 130px;
     height: 50px;
     position: relative;
@@ -58,7 +58,7 @@ div {
     bottom: 140px;
 }
 
-.conttext {
+#conttext {
     position: relative;
     bottom: 16px;
     right: 1px;
