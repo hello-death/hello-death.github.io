@@ -95,3 +95,19 @@ a {
     text-decoration: none;
     color: #d9d9d9;
 }
+
+#links1 {
+    font-family: monospace;
+    color: #d9d9d9;
+    list-style-type: none;
+    width: 150px;
+    line-height: 90px;
+    position: relative;
+    top: 28px;
+    left: 70px;
+}
+
+.underline {
+  border-bottom: 1px dashed #d9d9d9;
+  display: inline;
+}
