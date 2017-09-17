@@ -26,51 +26,47 @@ p {
     position: relative;
 }
 
-#copyright p {
+#copyright {
     position: relative;
     font-family: monospace;
     text-align: center;
     margin: 30px;
     color: #d9d9d9;
+    top: 90px;
 }
 
-div {
-    width: 700px;
-    height: 896px;
-    margin: auto;
-    margin-top: 40px;
+.box {
     background-color: #1a1a1a;
     border-style: double;
     border-color: #d9d9d9;
 }
 
-#largediv {
-    width: 1000px;
-    position: absolute;
-    margin-left: 100px;
+#frontpagebox {
+    width: 700px;
+    height: 896px;
+    margin: auto;
+    margin-top: 40px;
 }
 
-#smalldiv1 {
-    height: 438px;
+#page2box1 {
+    width: auto;
+    height: auto;
     position: absolute;
-    margin-right: 100px;
-    margin-left: 1120px;
-}
-
-#smalldiv2 {
-    height: 438px;
-    position: absolute;
-    margin-right: 100px;
-    margin-left: 1120px;
-    margin-top: 498px;
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-right: 50px;
 }
 
 #contbox {
+    background-color: #1a1a1a;
+    border-style: double;
+    border-color: #d9d9d9;
     width: 130px;
     height: 50px;
     position: relative;
-    left: 300px;
-    bottom: 140px;
+    left: 590px;
+    bottom: 60px;
 }
 
 #conttext {
@@ -84,7 +80,7 @@ div {
     display: block;
     margin: auto;
     position: relative;
-    bottom: 20px;
+    top: 60px;
 }
 
 a:hover {
@@ -97,28 +93,15 @@ a {
     color: #d9d9d9;
 }
 
-#links1 {
+#links {
+    padding-left: 0;
     font-family: monospace;
     color: #d9d9d9;
     list-style-type: none;
-    width: 150px;
     line-height: 90px;
     position: relative;
-    top: 28px;
-    left: 45px;
     display: inline-block;
-}
-
-#links2 {
-    font-family: monospace;
-    color: #d9d9d9;
-    list-style-type: none;
-    width: 150px;
-    line-height: 90px;
-    position: relative;
-    top: 28px;
-    right: 20px;
-    display: inline-block;
+    margin-left: 50px;
 }
 
 .underline {
