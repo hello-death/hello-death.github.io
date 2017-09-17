@@ -75,6 +75,7 @@ p {
     position: relative;
     left: 590px;
     bottom: 140px;
+    padding: 0;
 }
 
 #conttext {
