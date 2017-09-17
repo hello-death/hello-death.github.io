@@ -35,6 +35,13 @@ p {
     top: 90px;
 }
 
+.none {
+    width: 700px;
+    height: 896px;
+    margin: auto;
+    margin-top: 40px;
+}
+
 .box {
     background-color: #1a1a1a;
     border-style: double;
@@ -67,7 +74,7 @@ p {
     height: 50px;
     position: relative;
     left: 590px;
-    bottom: 60px;
+    bottom: 140px;
 }
 
 #conttext {
