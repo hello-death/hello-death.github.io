@@ -37,7 +37,7 @@ p {
 
 .none {
     width: 700px;
-    height: 896px;
+    height: 890px;
     margin: auto;
     margin-top: 40px;
 }
@@ -50,18 +50,40 @@ p {
 
 #frontpagebox {
     width: 700px;
-    height: 896px;
+    height: 890px;
     margin: auto;
     margin-top: 40px;
     overflow: hidden;
 }
 
 #page2box1 {
-    width: auto;
-    height: auto;
-    position: absolute;
-    margin-left: 40px;
+    overflow: hidden;
+    width: 480px;
+    height: 890px;
+    float: left;
+    padding-right: 50px;
+    margin-bottom: 40px;
     margin-top: 40px;
+    margin-left: 405px;
+}
+
+#page2box2 {
+    overflow: hidden;
+    width: 480px;
+    height: 670px;
+    float: right;
+    margin-right: 405px;
+    margin-top: 40px;
+    padding-right: 50px;
+}
+
+#page2box3 {
+    overflow: hidden;
+    width: 480px;
+    height: 193px;
+    float: right;
+    margin-top: 21px;
+    margin-right: 405px;
     margin-bottom: 40px;
     padding-right: 50px;
 }
@@ -108,7 +130,6 @@ a {
     color: #d9d9d9;
     list-style-type: none;
     line-height: 90px;
-    position: relative;
     display: inline-block;
     margin-left: 50px;
 }
