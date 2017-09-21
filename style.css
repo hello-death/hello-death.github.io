@@ -67,8 +67,7 @@ p {
 
 #page2box1 {
     position: relative;
-    width: 70%;
-    padding-right: 50px;
+    width: 500px;
     overflow: hidden;
     bottom: 70px;
     right: 80px;
