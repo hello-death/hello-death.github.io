@@ -75,10 +75,11 @@ p {
 }
 
 #conttext {
-    position: relative;
-    bottom: 16px;
-    right: 1px;
     font-size: 17px;
+    margin: 0;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 50px;
 }
 
 #globe {
