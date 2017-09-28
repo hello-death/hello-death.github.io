@@ -117,82 +117,55 @@ a:hover {
     margin-top: 30px;
 }
 
-#navigationbar {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    height: 30px;
-    width: 90%
+#nav {
+    display: inline-block;
 }
 
-#navigationbar ul {
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    height: 100%;
-    width: 100%;
+#nav_wrapper {
+    widows: 960px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#nav ul {
     list-style-type: none;
-    background-color: #eeeeee;
-    overflow: visible;
-}
-
-#navigationbar ul > li {
-    display: block;
-    float: left;
-    height: auto;
-    width: 120px;
-}
-
-#navigationbar li > a {
-    display: block;
-    padding: 0 0 0 10px;
-    height: 100%;
-    width: 109px;
-    border-right: 1px black sold;
-    line-height: 30px;
-    font-family: sans-serif;
-    font-size: 17px;
-    text-decoration: none;
-    background-color: #eeeeee;
-    color: #5d5636;
-}
-
-#navigationbar ul ul {
-    margin-top: 2px;
-    display: none;
-    position: static;
-    height: auto;
-    width: 160px;
-    border: 1px #666666 solid;
-    background-color: #dddddd;
-}
-
-#navigationbar ul ul li {
+    padding: 0;
+    margin: 0;
     position: relative;
-    float: none;
+}
+
+#nav ul li {
+    line-height: 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+#nav ul li:hover {
+    
+}
+
+#nav ul li a, visited {
     display: block;
-    height: 28px;
-    widows: 100%;
-    border: none;
+    padding: 0px;
 }
 
-#navigationbar ul ul li > a {
-    height: 100%;
-    widows: 96%;
-    padding: 0 0 0 4%;
-    line-height: 28px;
-    background-color: transparent;
-    border: none;
-    color: #000000;
-    font-size: 12px;
-    font-style: normal;
+#nav ul li a:hover {
+    color: #1a1a1a
 }
 
-#navigationbar li:hover > a {
-    color: #220000;
-    background-color: #eeeabe;
+#nav ul li:hover ul {
+    display: inline;
 }
 
-#navigationbar li:hover > ul {
+#nav ul ul {
+    display: none;
+    position: absolute;
+}
+
+#nav ul ul li {
     display: block;
+}
+
+#nav ul ul li a,visited {
+    color: #d9d9d9;
 }
