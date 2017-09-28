@@ -166,3 +166,33 @@ a:hover {
     border: 1px #666666 solid;
     background-color: #dddddd;
 }
+
+#navigationbar ul ul li {
+    position: relative;
+    float: none;
+    display: block;
+    height: 28px;
+    widows: 100%;
+    border: none;
+}
+
+#navigationbar ul ul li > a {
+    height: 100%;
+    widows: 96%;
+    padding: 0 0 0 4%;
+    line-height: 28px;
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    font-size: 12px;
+    font-style: normal;
+}
+
+#navigationbar li:hover > a {
+    color: #220000;
+    background-color: #eeeabe;
+}
+
+#navigationbar li:hover > ul {
+    display: block;
+}
