@@ -121,12 +121,6 @@ a:hover {
     display: inline-block;
 }
 
-#nav_wrapper {
-    widows: 960px;
-    margin: 0 auto;
-    text-align: left;
-}
-
 #nav ul {
     list-style-type: none;
     padding: 0;
@@ -135,8 +129,7 @@ a:hover {
 }
 
 #nav ul li {
-    line-height: 50px;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 50px;
 }
 
@@ -145,8 +138,9 @@ a:hover {
 }
 
 #nav ul li a, visited {
-    display: block;
+    display: inline-block;
     padding: 0px;
+    
 }
 
 #nav ul li a:hover {
@@ -154,7 +148,7 @@ a:hover {
 }
 
 #nav ul li:hover ul {
-    display: inline;
+    display: inline-block;
 }
 
 #nav ul ul {
