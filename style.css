@@ -1,5 +1,7 @@
 body {
-    background-image: url("https://i.imgur.com/G4nomNL.jpg");
+    /*background-image: url("https://i.imgur.com/G4nomNL.jpg");*/
+    background: url("impressive.gif") center;
+    background-size: cover;
 }
 
 a {
