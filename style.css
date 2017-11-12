@@ -1,92 +1,31 @@
 body {
-    /*background-image: url("https://i.imgur.com/G4nomNL.jpg");*/
-    /*background: url("impressive.gif") center fixed;*/
-    background: url("dryden.gif") center fixed;
-    background-size: 100% auto;
+    background: url("WWII,_Europe,_France,_'German_POWs_-_Fearful_Youth'_-_NARA_-_195463.jpg") center fixed;
+    background-size: 101.7% auto;
     margin: 0;
 }
 
-a {
-    text-decoration: none;
-    color: #d9d9d9;
+audio {
+    display: none;
 }
-
-a:hover {
-    color: #1a1a1a;
-    background-color: #d9d9d9;
-}
-
-.underline {
-  border-bottom: 1px dashed #d9d9d9;
-  display: inline;
-}
-
 .box1 {
     background-color: #1a1a1a;
     border-style: double;
-    border-color: #d9d9d9;
+    border-color: gray;
 }
 
-#empty1 {
-    width: 700px;
-    height: 890px;
-    margin: auto;
-    margin-top: 40px;
-}
-
-#page1box1 {
-    overflow: hidden;
-    width: 700px;
-    height: 890px;
-    margin: auto;
-    margin-top: 40px;
-}
-
-.font1 {
+#p1f1 {
+    position: relative;
     color: #d9d9d9;
     font-family: monospace;
-    margin: 0px
-}
-
-#icon {
-    font-size: 70px;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    line-height: 72px;
 }
 
-#frontpageparagraph {
-    text-align: center;
-}
-
-#globe {
-    display: block;
+#p1b1 {
     margin: auto;
-    margin-top: 90px;
-}
-
-#copyright {
-    text-align: center;
-    margin-top: 80px;
-}
-
-#contbox {
-    width: 130px;
-    height: 50px;
-    position: relative;
-    left: 590px;
-    bottom: 150px;
-}
-
-#conttext{
-    font-size: 17px;
-    text-align: center;
-    line-height: 50px;
-}
-
-#page2box1 {
-    width: 700px;
-    position: relative;
-    margin: auto;
-    margin-top: 70vh;
+    margin-top: 50vh;
+    margin-left: 65vh;
+    width: 80vh;
+    height: 10vh;
+    overflow: hidden;
 }
